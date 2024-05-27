@@ -5,7 +5,7 @@ import {
 import { MdEmail, MdAccessTime, MdLocationOn } from 'react-icons/md';
 
 const Header = () => (
-  <div className="bg-gray-900 text-white justify-between items-center p-4 hidden md:flex">
+  <div className="bg-gray-900 text-white justify-between items-center py-4 pl-14 pr-16 hidden md:flex">
     <div className="flex items-center space-x-4">
       <div className="flex items-center space-x-1">
         <MdAccessTime className="text-red-500" />
