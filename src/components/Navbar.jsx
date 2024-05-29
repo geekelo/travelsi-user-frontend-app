@@ -23,7 +23,7 @@ const Navbar = () => {
                 <FaPlaneDeparture className="inline" />
               </span>
               {' '}
-              Travosy
+              Travelsi
             </a>
           </div>
           <div className="block lg:hidden pr-4">

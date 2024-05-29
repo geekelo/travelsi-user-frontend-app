@@ -1,0 +1,23 @@
+@media screen and (max-width: 768px) {
+  .landing-section {
+    flex-direction: column;
+    width: 100%;
+    padding: 10%;
+    padding-top: 30%;
+    padding-bottom: 70%;
+  }
+
+  .landing-sub-sections {
+    width: 100%;
+  }
+
+  .playbtn-section {
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+
+  .header-text {
+    font-size: 2.99rem;
+    line-height: 3rem;
+  }
+}

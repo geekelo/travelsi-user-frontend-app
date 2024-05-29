@@ -1,10 +1,43 @@
 .landing-section {
   padding: 3.5rem;
-  height: 85vh;
+  height: 100vh;
   background-color: black;
   color: rgb(255, 255, 255);
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row-reverse;
+  background-image: url("../../assets/headerimage.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.fancy-text {
+  font-family: "Sevillana", cursive;
+  font-size: 1.5rem;
+}
+
+.header-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 3.5rem;
+  line-height: 5rem;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+}
+
+.landing-sub-sections {
+  width: 50%;
+}
+
+.playbtn-section {
+  text-align: center;
+}
+
+.info-text {
+  font-family: "Lato", sans-serif;
+  font-size: 1.3rem;
+  color: rgb(225, 225, 225);
+  line-height: 1.7rem;
 }
