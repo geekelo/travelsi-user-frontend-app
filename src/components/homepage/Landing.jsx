@@ -1,10 +1,20 @@
+import '../../stylesheets/desktop/landing.css';
+import CircularPlayIcon from './CircularPlayicon';
+
 function Landing() {
   return (
-    <div>
-      <h1>Welcome to the Landing Page</h1>
-      <p>This is the landing page of our app.</p>
-      <h1>Welcome to the Landing Page</h1>
-      <p>This is the landing page of our app.</p>
+    <div className="landing-section">
+      <div>
+        <CircularPlayIcon />
+      </div>
+      <div>
+        <p>Beauty of Travelling</p>
+        <h1>Let&apos;s Leave The Road, And Take The Travelsi</h1>
+        <p>
+          Planning for a trip? We will organize your trip with
+          the best places and within best budget!
+        </p>
+      </div>
     </div>
   );
 }

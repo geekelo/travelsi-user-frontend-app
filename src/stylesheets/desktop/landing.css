@@ -1,0 +1,10 @@
+.landing-section {
+  padding: 3.5rem;
+  height: 85vh;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}

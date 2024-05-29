@@ -1,0 +1,11 @@
+.icon-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;  /* Adjust size as needed */
+  height: 50px;  /* Adjust size as needed */
+  background-color: #4CAF50;  /* Adjust background color as needed */
+  border-radius: 50%;
+  color: white;  /* Adjust icon color as needed */
+  font-size: 24px;  /* Adjust icon size as needed */
+}
