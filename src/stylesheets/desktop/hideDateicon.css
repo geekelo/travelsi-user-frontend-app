@@ -22,17 +22,6 @@ input[type="date"] {
   display: inline-block;
 }
 
-/* Custom icon style */
-.custom-date-icon {
-  position: absolute;
-  left: 10px; /* Adjust as needed */
-  top: 50%;
-  transform: translateY(-50%);
-  pointer-events: none;
-  color: #4CAF50; /* Icon color */
-  z-index: 1;
-}
-
 /* Remove the border and outline on focus */
 input[type="date"]:focus {
   border: none;

@@ -1,0 +1,13 @@
+.booking-form-section {
+  margin-top: -16%;
+}
+
+.booking-form-container {
+  flex-direction: column;
+  width: 90%;
+  gap: 20px;
+}
+
+.booking-form-container div {
+  width: 100%;
+}

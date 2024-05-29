@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faCalendarAlt, faUserFriends } from '@fortawesome/free-solid-svg-icons';
 import '../../stylesheets/desktop/bookingForm.css';
+import '../../stylesheets/mobile-tablets/bookingForm.css';
 import '../../stylesheets/desktop/hideDateicon.css';
 
 function BookingForm() {
@@ -16,6 +17,7 @@ function BookingForm() {
               name="search"
               type="search"
               placeholder="Search"
+              aria-label="Search"
             />
           </label>
         </div>
@@ -27,36 +29,40 @@ function BookingForm() {
               id="date"
               name="date"
               type="date"
+              value="20/02/2024"
+              aria-label="date"
             />
           </label>
         </div>
         <div>
           <p>Select Your Date:</p>
-          <label htmlFor="date" aria-controls="date">
+          <label htmlFor="second-date" aria-controls="date">
             <FontAwesomeIcon icon={faCalendarAlt} />
             <input
-              id="date"
-              name="date"
-              type="date"
+              id="second-date"
+              name="second-date"
+              type="second-date"
+              value="29/11/2024"
+              aria-label="Second-date"
             />
           </label>
         </div>
         <div>
-          <p>
+          <p>No. of Person:</p>
+          <label htmlFor="numberOfPersons">
             <FontAwesomeIcon icon={faUserFriends} />
-            No. of Person
-          </p>
-          <select>
-            <option value="">No. of Person</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-          </select>
+            <select id="numberOfPersons" name="numberOfPersons">
+              <option disabled>No. of Person</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </label>
         </div>
         <div>
-          <input type="submit" />
+          <input type="Submit" />
         </div>
       </form>
     </div>

@@ -5,16 +5,23 @@
   margin-top: -6%;
   padding-bottom: 4%;
   color: #3c4858;
+  font-family: Roboto, Helvetica, sans-serif;
 }
 
 .booking-form-container {
   display: flex;
   background-color: #fff;
-  padding: 3rem;
+  padding: 2rem;
   width: 80%;
   border-radius: 1rem;
+  gap: 3%;
   justify-content: space-evenly;
-  border: 1.5px solid rgba(187, 187, 187, 0.432);
+  border: 1.5px solid rgba(187, 187, 187, 0.24);
+}
+
+.booking-form-container div {
+  width: 20%;
+  box-sizing: border-box;
 }
 
 input:focus {
@@ -22,13 +29,8 @@ input:focus {
   outline: none;
 }
 
-input[type="search"] {
-  width: 5rem;
-}
-
-input::placeholder,
-input::content {
-  color: #3c48587b;
+input {
+  width: 100%;
 }
 
 select:focus {
@@ -39,12 +41,30 @@ select:focus {
 /* Input field style */
 label {
   display: flex;
-  padding-left: 15px; /* Make space for the custom icon */
-  padding-right: 15px;
+  padding: 0.5rem;
   box-sizing: border-box;
   align-items: center;
   gap: 10px;
-  width: fit-content;
+  width: 100%;
   border-radius: 0.3rem;
   border: 1px solid rgba(204, 204, 204, 0.443); /* Normal border style */
+  color: #787878d0; /* Icon color */
+}
+
+select {
+  background-color: white;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+}
+
+input[type="Submit"] {
+  background-color: #ee4444;
+  color: #fff;
+  padding: 0.5rem;
+  margin-top: 1.4rem;
+  border-radius: 0.3rem;
 }
