@@ -1,0 +1,17 @@
+.icon-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;  /* Adjust size as needed */
+  height: 100px;  /* Adjust size as needed */
+  background-color: #fff;  /* Adjust background color as needed */
+  border-radius: 50%;
+  color: rgb(238, 68, 68);  /* Adjust icon color as needed */
+  font-size: 24px;  /* Adjust icon size as needed */
+}
+
+.icon-circle:hover {
+  color: #fff;
+  background-color: rgb(238, 68, 68);
+  transition: all 0.6s ease-in-out;
+}
